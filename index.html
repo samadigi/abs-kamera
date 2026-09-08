@@ -688,6 +688,10 @@
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <h3 class="text-sm font-bold text-white tracking-wide">Data Presensi Karyawan Lengkap</h3>
           <div class="flex items-center space-x-2">
+            <a href="https://docs.google.com/spreadsheets/d/10AeyKES_300HKWzVVkb6VSC8J0AF1EffKJR0okNBHMM/edit" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-400 border border-emerald-500/30 text-xs font-semibold flex items-center space-x-1.5 transition-all" title="Buka Spreadsheet Database di Tab Baru">
+              <i class="fa-solid fa-table-cells text-[#8EFF00]"></i>
+              <span>Buka Google Sheets</span>
+            </a>
             <button onclick="exportToCsv()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200">
               <i class="fa-solid fa-file-csv mr-1 text-[#8EFF00]"></i> Export CSV
             </button>
@@ -911,6 +915,8 @@
     let appConfig = {
       appName: 'AbadiPresensi — PT SUKSES ABADIKU',
       companyName: 'PT SUKSES ABADIKU',
+      spreadsheetId: '10AeyKES_300HKWzVVkb6VSC8J0AF1EffKJR0okNBHMM',
+      spreadsheetUrl: 'https://docs.google.com/spreadsheets/d/10AeyKES_300HKWzVVkb6VSC8J0AF1EffKJR0okNBHMM/edit',
       officeName: 'Kantor Pusat PT SUKSES ABADIKU',
       officeLat: -6.200000,
       officeLng: 106.816666,
